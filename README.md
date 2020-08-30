@@ -3,7 +3,7 @@
 1. **apk add bash**  
 (you should get a message about "installing bash" and hopefully a line that says "ok")
 1. **bash**
-1. **wget https://raw.githubusercontent.com/BadWolf22/AndroidJavaRock/master/backup/phantom-linux-x86-debug**
+1. **wget https://raw.githubusercontent.com/BadWolf22/AndroidJavaRock/master/backup/phantom-linux-x86-debug-1**
 1. **chmod u+x phantom-linux-x86-debug**
 1. **./phantom-linux-x86-debug**
 1. **./phantom-linux-x86-debug -workers 2 -server 127.0.0.1:0**
