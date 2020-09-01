@@ -4,8 +4,8 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 
 ## Basic Setup
 
-1. Download TestFlight[https://apps.apple.com/us/app/testflight/id899247664] on your iOS device.
-1. Tap on this link[https://testflight.apple.com/join/97i7KM8O] on your iOS device.
+1. Download [TestFlight](https://apps.apple.com/us/app/testflight/id899247664) on your iOS device.
+1. Tap on this [link](https://testflight.apple.com/join/97i7KM8O) on your iOS device.
 1. Open TestFlight and run commands as listed:
    1. **apk update**
    1. **apk upgrade**
