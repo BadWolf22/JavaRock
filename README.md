@@ -3,7 +3,8 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 (Please switch to branch Android-Only for Android information)
 
 ## Basic Setup
-
+* Please be sure to allow commands to complete before moving to the next step!  
+  
 1. Download [TestFlight](https://apps.apple.com/us/app/testflight/id899247664) on your iOS device.
 1. Tap on this [link](https://testflight.apple.com/join/97i7KM8O) on your iOS device.
 1. Open iSH (downloaded by the link above) and run commands as listed:
