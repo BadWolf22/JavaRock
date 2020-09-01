@@ -1,24 +1,23 @@
-# AndroidJavaRock
-Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on **Android** only.  
-(Please switch to branch iOS-Only for iOS information)
+# iOSJavaRock
+Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on **iOS** only.  
+(Please switch to branch Android-Only for Android information)
 
 ## Basic Setup
 
-1. Download Termux on your Android device.
-1. Open Termux and run commands as listed:
-   1. **apt update**
-   1. **apt upgrade** (type **y** and press **enter/return** if prompted)
-   1. **termux-setup-storage** (press **Allow** when prompted)
-   1. **termux-wake-lock** (press **Allow** when prompted)
-   1. **pkg install wget** (be sure to type **y** and press **enter/return** if prompted)
-1. At this point, run the command **exit** and reopen Termux.
+1. Download TestFlight[https://apps.apple.com/us/app/testflight/id899247664] on your iOS device.
+1. Tap on this link[https://testflight.apple.com/join/97i7KM8O] on your iOS device.
+1. Open TestFlight and run commands as listed:
+   1. **apk update**
+   1. **apk upgrade**
+   1. **apk add bash**
+   1. **bash**
 1. Now type **mkdir JavaRock**.
 1. Move into the JavaRock directory by typing **cd JavaRock**
 
 ## Installing Phantom
 
-1. Run the commands as listed (you may copy-paste into Termux):
-   1. **curl "https://raw.githubusercontent.com/BadWolf22/JavaRock/Android-Only/scripts/downloadPhantom.sh" | bash**  
+1. Run the commands as listed (you may copy-paste into iSH):
+   1. **curl "https://raw.githubusercontent.com/BadWolf22/JavaRock/iOS-Only/scripts/downloadPhantom.sh" | bash**  
       * (The above line will automatically download the contained scripts, **You do not need to open the link unless you don't trust me XD**)
    1. **nano ./startPhantom.sh**
       1. Drag from the bottom of the window to the top to move the cursor down. Then delete "**[server ip here]**" and type or paste your serverIp:port.
@@ -29,13 +28,15 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 1. Phantom is now completely setup, to test it simply type **./startPhantom.sh**  
    **You will type this every time you would like to begin Phantom.**  
    If you see a few messages such as "Listener starting up" everything works perfectly :D.  
-   (To stop phantom press the "**CTRL**" button at the bottom of your screen and type the letter **c**)
+   (To stop phantom press the "**^**" (up-caret) button at the bottom of your screen and type the letter **c**)
 
 ## Congratulations, you have now downloaded everything you need!
 
 * To begin Phantom:
-   1. Open Termux and navigate to your JavaRock folder using **cd JavaRock** 
-   1. Ensure your phone does not sleep by using **termux-wake-lock**  
+   1. I would recommend ensuring your device will not fall asleep by adjusting the sleep timer to **never**.
+   1. I would also recommend not relying on the app running in the background but leave it open in the foreground.
+   1. Open iSH and navigate to your JavaRock folder using **cd JavaRock** 
+   1. Use the command **bash**
    1. Begin Phantom using **./startPhantom.sh**
 
 ## Play the game!
@@ -51,5 +52,5 @@ I am sorry to say that sadly the only way to update these programs to the most r
 If anyone from outside my group of friends stumbles upon this repository, please know that you are free to add an issue letting me know it needs to be updated or with any other issues you have. Also feel free to copy the repository or make pull requests :D. *(Note that I am not the creator of Phantom(https://github.com/jhead/phantom))*.
 
 # Uninstallation
-Perhaps there may come a time when you no longer need these on your phone taking up storage. In order to uninstall, simply open Termux with no previous sessions open and type the following:
+Perhaps there may come a time when you no longer need these on your phone taking up storage. In order to uninstall, simply open iSH and type the following:
 * **rm -rf JavaRock**
