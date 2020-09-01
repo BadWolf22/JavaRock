@@ -22,7 +22,7 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 1. Run the commands as listed (you may copy-paste into iSH):
    1. **curl "https://raw.githubusercontent.com/BadWolf22/JavaRock/iOS-Only/scripts/downloadPhantom.sh" | bash**  
       * (The above line will automatically download the contained scripts, **You do not need to open the link unless you don't trust me XD**)
-   1. *you must type the following command or copy paste from the discord server:* **sed -i '3s,$,[server ip here],' ./startPhantom.sh**
+   1. *you must type the following command or copy paste from the __discord server__:* **sed -i '3s,$,[server ip here],' ./startPhantom.sh**
    1. **chmod u+x makeScriptsExecutable.sh**
    1. **./makeScriptsExecutable.sh**
 1. Phantom is now completely setup, to test it simply type **./startPhantom.sh**  
