@@ -3,6 +3,8 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 (Please switch to branch iOS-Only for iOS information)
 
 ## Basic Setup
+* Please be sure to allow commands to complete before moving to the next step!
+* You may autocomplete filenames by typing the first few letters and pressing the tab button ->|
 
 1. Download Termux on your Android device.
 1. Open Termux and run commands as listed:
@@ -20,10 +22,7 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 1. Run the commands as listed (you may copy-paste into Termux):
    1. **curl "https://raw.githubusercontent.com/BadWolf22/JavaRock/Android-Only/scripts/downloadPhantom.sh" | bash**  
       * (The above line will automatically download the contained scripts, **You do not need to open the link unless you don't trust me XD**)
-   1. **nano ./startPhantom.sh**
-      1. Drag from the bottom of the window to the top to move the cursor down. Then delete "**[server ip here]**" and type or paste your serverIp:port.
-      1. Press the **CTRL** button and type the letter *s*
-      1. Press the **CTRL** button and type the letter *x*
+   1. *you must type the following command or copy paste from the discord server*: **sed -i '3s,$,[server ip here],' ./startPhantom.sh**
    1. **chmod u+x makeScriptsExecutable.sh**
    1. **./makeScriptsExecutable.sh**
 1. Phantom is now completely setup, to test it simply type **./startPhantom.sh**  
