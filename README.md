@@ -1,6 +1,6 @@
 # AndroidJavaRock
 Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on **Android** only.  
-(Please switch to branch Apple-Only for iOS information)
+(Please switch to branch iOS-Only for iOS information)
 
 ## Basic Setup
 
