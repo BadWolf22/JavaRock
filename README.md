@@ -11,6 +11,8 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
    1. **apk update**
    1. **apk upgrade**
    1. **apk add bash**
+   1. **apk add curl**
+   1. **apk add wget**
    1. **bash**
 1. Now type **mkdir JavaRock**.
 1. Move into the JavaRock directory by typing **cd JavaRock**
