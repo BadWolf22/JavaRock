@@ -1,5 +1,5 @@
 # AndroidJavaRock
-Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on **Android** only.  
+Hosting scripts and whatnot to ease the setup and use of Phantom on **Android** only.  
 (Please switch to branch iOS-Only for iOS information)
 
 ## Basic Setup
@@ -37,7 +37,7 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 
 ## Play the game!
 * Everything is now running again, boot up your console and join the lan world.
-* Please note that you probably shouldn't play mobile Minecraft on *this device* because Minecraft might eat all the memory and kill Phantom and Geyser.
+* Please note that you probably shouldn't play mobile Minecraft on *this device* because Minecraft might eat all the memory and kill Phantom.
 * Please also note that performance is not guaranteed as it is largely down to your devices power and internet speed.
 
 * Enjoy :D
