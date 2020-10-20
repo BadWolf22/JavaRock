@@ -1,5 +1,4 @@
-1. **apk update**
-1. **apk upgrade**
+1. **apk update && apk upgrade**
 1. **apk add bash**  
 (you should get a message about "installing bash" and hopefully a line that says "ok")
 1. **bash**
