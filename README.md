@@ -49,4 +49,4 @@ If anyone from outside my group of friends stumbles upon this repository, please
 
 # Uninstallation
 Perhaps there may come a time when you no longer need these on your phone taking up storage. In order to uninstall, simply open Termux with no previous sessions open and type the following:
-* **rm -rf JavaRock**
+* **rm -rf \***
