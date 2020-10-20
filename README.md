@@ -9,11 +9,8 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 1. Download [TestFlight](https://apps.apple.com/us/app/testflight/id899247664) on your iOS device.
 1. Tap on this [link](https://testflight.apple.com/join/97i7KM8O) on your iOS device.
 1. Open iSH (downloaded by the link above) and run commands as listed:
-   1. **apk update**
-   1. **apk upgrade**
-   1. **apk add bash**
-   1. **apk add curl**
-   1. **apk add wget**
+   1. **apk update && apk upgrade**
+   1. **apk add bash curl wget**
    1. **bash**
 1. Now type **mkdir JavaRock**.
 1. Move into the JavaRock directory by typing **cd JavaRock**
