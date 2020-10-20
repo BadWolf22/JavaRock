@@ -18,10 +18,8 @@ Hosting scripts and whatnot to ease the setup and use of GeyserMC and Phantom on
 
 1. Download Termux on your Android device.
 1. Open Termux and run commands as listed:
-   1. **apt update**
-   1. **apt upgrade**
-   1. **termux-setup-storage**
-   1. **termux-wake-lock**
+   1. **apt update && apt upgrade**
+   1. **termux-setup-storage && termux-wake-lock**
    1. **pkg install wget**
 1. At this point, run the command **exit** and reopen Termux.
 1. Now type **mkdir JavaRock**.
